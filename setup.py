@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 # [ Main ]
 setup(
     name='utaw',
-    version='0.1.0',
+    version='0.2.0',
     description='UTAW: UnitTest Assertion Wrapper.',
     url='https://github.com/notion/utaw',
     author='toejough',
@@ -19,7 +19,7 @@ setup(
             #   3 - Alpha
             #   4 - Beta
             #   5 - Production/Stable
-            'Development Status :: 3 - Alpha',
+            'Development Status :: 4 - Beta',
 
             # Indicate who your project is intended for
             'Intended Audience :: Developers',
@@ -31,6 +31,7 @@ setup(
             # that you indicate whether you support Python 2, Python 3 or both.
             'Programming Language :: Python :: 3',
             'Programming Language :: Python :: 3.5',
+            'Programming Language :: Python :: 3.6',
     ],
     keywords="test assert assertions",
     packages=find_packages(),
